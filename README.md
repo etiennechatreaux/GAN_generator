@@ -1,3 +1,11 @@
-This project explores Generative Adversarial Networks (GAN) because I find the concept very interesting : 2 neural networks that "fight" to generate realistic data. The generator creates data from random noise, while the discriminator classifies whether the input data is real or fake.
+# GANs for Synthetic Data Generation
 
-After that, I will try to do some researchs on the use of synthetic data in small datasets to train ML models.
+## Project Overview
+This project delves into Generative Adversarial Networks (GANs), a fascinating concept where two neural networks—the generator and the discriminator—compete to produce highly realistic data. The generator starts with random noise to create data that mimics a real dataset, while the discriminator tries to classify if the input data is real or generated. This adversarial process enables the GAN to refine its output and produce increasingly realistic synthetic data.
+
+Following the GAN implementation, this project will explore the potential of synthetic data to improve machine learning (ML) model performance, particularly when training on small datasets. (that's called Data Augmentation)
+
+## Objectives
+1) Understand GAN Architecture: Build and fine-tune a GAN model to generate synthetic data
+2) Data Generation: Experiment with various techniques for data generation using the generator
+3) Research Synthetic Data Utility: Investigate the effectiveness of synthetic data in training ML models, especially in scenarios with limited real data availability
